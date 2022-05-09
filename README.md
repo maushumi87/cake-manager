@@ -55,3 +55,29 @@ share it with us.
 Please also keep a log of the changes you make as a text file and provide this to us with your submission.
 
 Good luck!
+
+==================================================
+# Changes
+1. Updated pom.xml(spring boot application)
+2. Removed hibernate and implemented spring jpa.
+3. Updated entity class (Cake.java)
+4. Used CommandLineRunner to load default data in H2 database on application startup.
+5. Updated cakeController to rest controller.
+6. Implemented both endpoints('/','/cakes') for get and post.
+7. Added service (CakeService) and repository (CakeRepository).
+8. Validation in entity class.
+9. Exception handling using Controller Advice.
+10. Added application.properties
+11. Added log4j2
+12. Added test classes.
+13. Renamed Readme.txt file to Readme.md
+
+#### To run a server locally execute the following command:
+
+`mvn spring-boot:run`
+
+and access the following URL:
+
+`http://localhost:8282/` <br>
+`http://localhost:8282/cakes`
+
